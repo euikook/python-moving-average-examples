@@ -4,7 +4,7 @@ import pandas as pd
 
 import matplotlib.dates as mdates
 
-from avgutils import do_cma, do_sma, do_ema, do_wma
+from avg import do_cma, do_sma, do_ema, do_wma
 
 from matplotlib import rcParams
 rcParams['font.family'] = 'monospace'
@@ -64,4 +64,4 @@ plt.xticks(rotation=45)
 
 plt.tight_layout()
 
-plt.savefig('all.svg', format='svg')
+plt.savefig('images/all.svg', format='svg')

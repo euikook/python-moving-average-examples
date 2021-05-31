@@ -43,6 +43,6 @@ plt.ylabel('Weights', fontsize=12)
 plt.xlabel('n-th Most Recent Smple', fontsize=12)
 plt.tight_layout()
 
-# plt.savefig('weight.svg', format='svg')
-plt.show()
+plt.savefig('images/weight.svg', format='svg')
+#plt.show()
 
