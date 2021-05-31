@@ -20,8 +20,19 @@ virtualenv venv
 pip install -r requirements.txt
 ```
 
-### 
+### Generate Charts
 
+Generate individual chart
+```
+python weight.py
+python sma.py
+python cma.py
+python wma.py
+python ema.py
+```
+
+
+Generate whole charts
 ```
 make
 ```
